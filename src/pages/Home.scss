@@ -1,0 +1,52 @@
+$max-width-wrapper: 42rem;
+$spacing-0: 0;
+$spacing-5: 1.25rem;
+$spacing-8: 2rem;
+$spacing-10: 2.5rem;
+$spacing-12: 3rem;
+$font-size-7: 2.986rem;
+$color-primary: #005b99;
+
+.Home {
+  margin: $spacing-0 auto;
+  max-width: $max-width-wrapper;
+  padding: $spacing-10 $spacing-5;
+
+  a {
+    color: $color-primary;
+  }
+
+  a:hover,
+  a:focus {
+    text-decoration: none;
+  }
+
+  h1 {
+    a {
+      text-decoration: none;
+    }
+  }
+
+  ol {
+    margin-left: $spacing-0;
+    margin-right: $spacing-0;
+    padding: $spacing-0;
+    margin-bottom: $spacing-8;
+    list-style-position: outside;
+    list-style-image: none;
+    list-style-type: none;
+
+    li {
+      padding-left: $spacing-0;
+      margin-bottom: calc($spacing-8 / 2);
+    }
+  }
+
+  .Home-header {
+    margin-bottom: $spacing-12;
+  }
+
+  .Home-heading {
+    font-size: $font-size-7;
+  }
+}

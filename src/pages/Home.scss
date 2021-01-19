@@ -38,7 +38,7 @@ $color-primary: #005b99;
 
     li {
       padding-left: $spacing-0;
-      margin-bottom: calc($spacing-8 / 2);
+      margin-bottom: calc(#{$spacing-8} / 2);
     }
   }
 

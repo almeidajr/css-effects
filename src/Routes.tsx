@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import GlassmorphismCard from './pages/GlassmorphismCard';
 import HelloWorld from './pages/HelloWorld';
 import Home from './pages/Home';
+import StackedCards from './pages/StackedCards';
 
 function Routes(): JSX.Element {
   return (
@@ -10,6 +11,7 @@ function Routes(): JSX.Element {
       <Route component={Home} exact path="/" />
       <Route component={HelloWorld} path="/hello-world" />
       <Route component={GlassmorphismCard} path="/glassmorphism-card" />
+      <Route component={StackedCards} path="/stacked-cards" />
     </Switch>
   );
 }

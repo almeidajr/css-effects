@@ -9,6 +9,11 @@ interface PageInfo {
 
 const data: PageInfo[] = [
   {
+    id: 'e2754300-f17d-49d5-998d-d24c058b9e4c',
+    title: 'Stacked Cards',
+    url: '/stacked-cards',
+  },
+  {
     id: '9d0feb04-c2f1-4d10-b3f3-25524656501c',
     title: 'Glassmorphism Card',
     url: '/glassmorphism-card',

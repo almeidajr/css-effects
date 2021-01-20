@@ -1,4 +1,10 @@
-@import '~fontsource-roboto';
+@import '~@fontsource/roboto';
+@import '~@fontsource/roboto/300.css';
+@import '~@fontsource/roboto/500.css';
+
+@import '~@fontsource/dm-mono';
+@import '~@fontsource/dm-mono/500.css';
+
 @import '~normalize.css/normalize';
 
 body {

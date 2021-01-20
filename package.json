@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@fontsource/dm-mono": "^4.1.0",
+    "@fontsource/poppins": "^4.1.0",
     "@fontsource/roboto": "^4.1.0",
     "normalize.css": "^8.0.1",
     "react": "^17.0.1",

@@ -5,7 +5,17 @@
 @import '~@fontsource/dm-mono';
 @import '~@fontsource/dm-mono/500.css';
 
+@import '~@fontsource/poppins';
+@import '~@fontsource/poppins/600.css';
+
 @import '~normalize.css/normalize';
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 body {
   margin: 0;

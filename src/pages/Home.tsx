@@ -9,6 +9,11 @@ interface PageInfo {
 
 const data: PageInfo[] = [
   {
+    id: '5dcc4543-0e90-4c6b-a666-581483e01b70',
+    title: 'Shining Text',
+    url: '/shining-text',
+  },
+  {
     id: 'abcea3bf-65c8-42a5-aa8f-194b08b9be05',
     title: 'Glassmorphism Login Form',
     url: '/glassmorphism-login-form',

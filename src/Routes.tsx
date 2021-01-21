@@ -4,6 +4,7 @@ import GlassmorphismCard from './pages/GlassmorphismCard';
 import GlassmorphismLoginForm from './pages/GlassmorphismLoginForm';
 import HelloWorld from './pages/HelloWorld';
 import Home from './pages/Home';
+import ShiningText from './pages/ShiningText';
 import StackedCards from './pages/StackedCards';
 
 function Routes(): JSX.Element {
@@ -17,6 +18,7 @@ function Routes(): JSX.Element {
         component={GlassmorphismLoginForm}
         path="/glassmorphism-login-form"
       />
+      <Route component={ShiningText} path="/shining-text" />
     </Switch>
   );
 }

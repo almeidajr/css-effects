@@ -8,12 +8,17 @@
 @import '~@fontsource/poppins';
 @import '~@fontsource/poppins/600.css';
 
+@import '~@fontsource/nunito';
+@import '~@fontsource/nunito/600.css';
+
 @import '~normalize.css/normalize';
 
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 

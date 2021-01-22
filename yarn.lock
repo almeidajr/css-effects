@@ -1185,6 +1185,11 @@
   resolved "https://registry.yarnpkg.com/@fontsource/dm-mono/-/dm-mono-4.1.0.tgz#cc459ad0a71897cb83efb430c1250215cf2aaf79"
   integrity sha512-YBJBcEzyJ13DnaVflBLEBex1w7i+K2cBhReEBScli/98KfjStCWKEtAVO9LQ5qr/j4mNWjvN/jwvOyKWwavOyA==
 
+"@fontsource/nunito@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/nunito/-/nunito-4.1.0.tgz#c27ae5fea63c6124f816013dc0b462084c02a047"
+  integrity sha512-IsEXFs9y85y88wqWtQmHk8AqkcmIE9ScdAFVTTCQYRLQCB3ki6SeiXVZTHZOpOnAxCTRKdIkN1G5Vjlk/6zMIw==
+
 "@fontsource/poppins@^4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@fontsource/poppins/-/poppins-4.1.0.tgz#dc250fd1865f92bc2406d38c8cdbc0018e9c0df1"
@@ -3504,6 +3509,11 @@ clone-deep@^4.0.1:
     is-plain-object "^2.0.4"
     kind-of "^6.0.2"
     shallow-clone "^3.0.0"
+
+clsx@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.1.1.tgz#98b3134f9abbdf23b2663491ace13c5c03a73188"
+  integrity sha512-6/bPho624p3S2pMyvP5kKBPXnI3ufHLObBFCfgx+LkeR5lg2XYy2hqZqUf45ypD8COn2bhgGJSUE+l5dhNBieA==
 
 co@^4.6.0:
   version "4.6.0"

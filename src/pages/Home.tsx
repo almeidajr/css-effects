@@ -9,6 +9,11 @@ interface PageInfo {
 
 const data: PageInfo[] = [
   {
+    id: '16fe8ce2-b676-484d-9290-e9da5835e249',
+    title: 'Change Image on Hover',
+    url: '/change-image-on-hover',
+  },
+  {
     id: '5dcc4543-0e90-4c6b-a666-581483e01b70',
     title: 'Shining Text',
     url: '/shining-text',

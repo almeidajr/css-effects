@@ -1,5 +1,6 @@
 import { Route, Switch } from 'react-router-dom';
 
+import ChangeImageOnHover from './pages/ChangeImageOnHover';
 import GlassmorphismCard from './pages/GlassmorphismCard';
 import GlassmorphismLoginForm from './pages/GlassmorphismLoginForm';
 import HelloWorld from './pages/HelloWorld';
@@ -19,6 +20,7 @@ function Routes(): JSX.Element {
         path="/glassmorphism-login-form"
       />
       <Route component={ShiningText} path="/shining-text" />
+      <Route component={ChangeImageOnHover} path="/change-image-on-hover" />
     </Switch>
   );
 }

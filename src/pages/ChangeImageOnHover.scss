@@ -1,0 +1,152 @@
+.ChangeImageOnHover {
+  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  .column {
+    width: 25%;
+    height: 100%;
+    float: left;
+    border-right: 2px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    z-index: 1;
+
+    &:last-child {
+      border-right: none;
+    }
+
+    @media only screen and (max-width: 750px) {
+      width: 50%;
+
+      &:nth-child(2),
+      &:nth-child(3) {
+        display: none;
+      }
+    }
+
+    @media only screen and (max-width: 320px) {
+      width: 100%;
+      border-right: none;
+
+      &:last-child {
+        display: none;
+      }
+    }
+
+    .content {
+      position: relative;
+      height: 100%;
+
+      h1 {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        background: rgba(0, 0, 0, 0.1);
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        color: rgba(255, 255, 255, 0.2);
+        font-size: 15em;
+        border-top: 2px solid rgba(0, 0, 0, 0.5);
+        border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+      }
+
+      .box {
+        position: absolute;
+        top: 50%;
+        transform: translateY(100%);
+        box-sizing: border-box;
+        padding: 40px;
+        background: rgba(255, 255, 255, 1);
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        text-align: center;
+        transition: 1.5s;
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+          margin: 0;
+          padding: 0;
+          font-size: 36px;
+          color: #000;
+        }
+
+        p {
+          font-size: 18px;
+          color: #262626;
+        }
+
+        a {
+          display: inline-block;
+          padding: 8px 20px;
+          margin-top: 15px;
+          background: #333;
+          color: #fff;
+          border-radius: 20px;
+          text-decoration: none;
+          font-weight: 500;
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+          font-weight: 600;
+        }
+      }
+    }
+
+    .background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: -1;
+      opacity: 0.6;
+      transition: 1.5s;
+    }
+
+    &.active {
+      .content .box {
+        opacity: 1;
+        transform: translateY(-50%);
+      }
+
+      .background {
+        &.image-1 {
+          background: url('../assets/83479296_p0.png');
+          background-size: cover;
+          background-attachment: fixed;
+          background-position: center;
+          opacity: 1;
+        }
+        &.image-2 {
+          background: url('../assets/83479813_p0.png');
+          background-size: cover;
+          background-attachment: fixed;
+          background-position: center;
+          opacity: 1;
+        }
+        &.image-3 {
+          background: url('../assets/83483840_p0.png');
+          background-size: cover;
+          background-attachment: fixed;
+          background-position: center;
+          opacity: 1;
+        }
+        &.image-4 {
+          background: url('../assets/83540625_p0.png');
+          background-size: cover;
+          background-attachment: fixed;
+          background-position: center;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

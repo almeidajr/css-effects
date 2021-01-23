@@ -1,0 +1,41 @@
+.ImageCarousel {
+  width: 100vw;
+  max-height: 100vh;
+  display: flex;
+
+  .items {
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: auto;
+    display: flex;
+    scroll-snap-type: x mandatory;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    scroll-behavior: smooth;
+
+    .item {
+      width: 100%;
+      flex: none;
+      scroll-snap-align: start;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .background {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../assets/81751228_p0.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    filter: blur(2px);
+  }
+}

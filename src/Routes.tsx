@@ -5,6 +5,7 @@ import GlassmorphismCard from './pages/GlassmorphismCard';
 import GlassmorphismLoginForm from './pages/GlassmorphismLoginForm';
 import HelloWorld from './pages/HelloWorld';
 import Home from './pages/Home';
+import ImageCarousel from './pages/ImageCarousel';
 import ShiningText from './pages/ShiningText';
 import StackedCards from './pages/StackedCards';
 
@@ -21,6 +22,7 @@ function Routes(): JSX.Element {
       />
       <Route component={ShiningText} path="/shining-text" />
       <Route component={ChangeImageOnHover} path="/change-image-on-hover" />
+      <Route component={ImageCarousel} path="/image-carousel" />
     </Switch>
   );
 }

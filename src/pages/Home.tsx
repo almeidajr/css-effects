@@ -9,6 +9,11 @@ interface PageInfo {
 
 const data: PageInfo[] = [
   {
+    id: '6e3c41c3-e91f-4049-a194-e43c25b170ba',
+    title: 'Image Carousel',
+    url: '/image-carousel',
+  },
+  {
     id: '16fe8ce2-b676-484d-9290-e9da5835e249',
     title: 'Change Image on Hover',
     url: '/change-image-on-hover',
